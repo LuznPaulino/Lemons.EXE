@@ -5,6 +5,7 @@ using UnityEngine;
 public class TestingScript : MonoBehaviour
 {
     // Start is called before the first frame update
+    public float potatoHead;
     void Start()
     {
         
@@ -14,5 +15,10 @@ public class TestingScript : MonoBehaviour
     void Update()
     {
         // I fucking love this!!!!
+    }
+
+    void FixedUpdate()
+    {
+        
     }
 }
